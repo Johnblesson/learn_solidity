@@ -42,3 +42,8 @@ DEXex
 - address
 - uint
 - require
+- struct
+- function
+- returns
+- emit
+- view
