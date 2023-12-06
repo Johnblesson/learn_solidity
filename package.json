@@ -1,0 +1,17 @@
+{
+  "name": "learn_solidity",
+  "version": "1.0.0",
+  "description": "__Other alternative smart contract languages__\r 1. Rust lang\r 2. Vyer lang\r 3. Go lang\r 4. Yul lang\r 5. Solidity",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sol index.sol --bin --abi --optimize -o ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "solc": "^0.8.23-fixed",
+    "web3": "^4.3.0"
+  }
+}
