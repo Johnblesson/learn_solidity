@@ -56,6 +56,30 @@
     // So when we use the keyword bytes, we are referring to a dynamically-sized byte array in smart contracts
 
     // Fixed-sized byte arrays
-    bytes1 public b1;
-    bytes2 public b2;
-}
+    // bytes1 public b1;
+    // bytes2 public b2;
+
+        bytes1 public b1 = 0x7a;
+        bytes2 public b2 = 0x7a7a;
+
+
+        // Address
+        // The address data type is used to store a 20 byte value
+        address public hey;
+        address public addr = 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB;
+
+        // Address types can be converted to and from uint
+        // address and uint are not the same type
+        // address payable is an address type that can be converted to and from uint
+        // address payable is the same as address but with the transfer and send memebers
+        // address payable is the same as address but with the transfer and send memebers
+
+        // Default values
+        // The default value for
+        // --- bool is false
+        // --- int is 0
+        // --- uint is 0
+        // --- address is 0
+        // --- bytes is 0x
+        // --- string is an empty string
+    }
